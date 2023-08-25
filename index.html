@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RANDOM QUOTE MACHINE</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+    </head>
+    <body>
+        <div id="quote-box">
+            <div id="text">
+               <span id="quote-mark">"</span><p id="text-output"></p>
+            </div>
+            <div id="author">
+                <p>- </p>
+                <p id="author-output"></p>
+            </div>
+            <div id="input-div">
+                <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank"><i class="fab fa-twitter"></i></a>
+                <div></div>
+                <button id="new-quote" onclick="generateQuote(index)">NEW QUOTE</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
